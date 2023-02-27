@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+.section_inner{
+    padding: 50px 10% 30px;
+}
+
+.key{
+    height: 500px;
+    background: center / cover no-repeat url("../images/sample_key.jpg");
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+
+}
+
+.key h1{
+    font-size: 2.5rem;
+    margin: 200px 0 0 0;
+}
+
+.section_title{
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.section_title h1,p{
+    margin: 10px;
+}
+
+
+.menu_title{
+    display: inline-block;
+    font-family: 'Noto Serif JP', serif;
+    color:#42210b;
+    border-bottom: 1px solid;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+.coffee_menu_image{
+    width: 20%;
+    border-radius: 50%;
+}
+
+.header_nav{
+    background: rgba(0, 0, 0, .6);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.global_nav_item{
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    padding:0 20px;
+}
+
+.global_nav_item:hover{
+    background:#fff;
+    color: #42210b;
+}
+
+.global_nav{
+    align-items: center;
+    display: flex;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.logo{
+    width: 120px;
+    align-items: center;
+    display: flex;
+}
